@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!--bbotstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
-
-
+    <!--css-->
     <link rel="stylesheet" href="../css/style.css">
 
 
-    
+
 
     <title>CUENTA SKIN PLEASE</title>
 </head>
@@ -35,12 +36,42 @@
     </header>
 
     <main>
-                
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../imag/logopng.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imag/lipis1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../imag/fondcoreldos.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <div class="zoomzoomeye">
+            <img src="" alt="">
+        </div>
+
         <section class="formulario">
-            
+
             <h1>TU CUENTA</h1>
             <form action="">
-                
+
                 <div>
                     <label for="usuario">usuario</label>
                     <input type="text" name="usuario" id="usuario">
@@ -56,16 +87,16 @@
                     <label for="contrasena">password</label>
                     <input type="password" name="contrasena" id="contrasena">
                 </div>
-                
+
                 <section class="preguntas">
                     <h4>¿olvidaste tu contraseña?</h4>
-                    <h4>¿no tenes una cuenta?</h4>                    
+                    <h4>¿no tenes una cuenta?</h4>
                     <h2>¿No podes ingresar?</h2>
                 </section>
 
 
 
-                
+
                 <div>
                     <h3>contanos de vos</h3>
                     <textarea name="" id="" cols="30" rows="10"></textarea>
@@ -85,12 +116,12 @@
         <div class="skinlogo">
             <img src="./imag/logopng.png" alt="">
         </div>
-        
+
 
     </main>
 
     <footer id="pie">
-        
+
 
         <div class="logos">
             <a href="https://es-la.facebook.com/" target="_blank"><img src="../imag/facebook.png"
@@ -116,7 +147,10 @@
 
     </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
