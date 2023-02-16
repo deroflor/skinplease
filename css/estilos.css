@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@300;400 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+head {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+header {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+nav {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+main {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+main {
+  background-color: #e5e5dc; }
+
+footer {
+  background-color: #d5d9de; }
+
+main .carousel-inner {
+  width: 100%;
+  height: 350px; }
+
+header {
+  background-color: #d5d9de; }
+  header h4 {
+    color: grey;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 15px; }
+  header h1 {
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px; }
+  header .hablemos div {
+    text-align: right; }
+    header .hablemos div a {
+      text-align: center;
+      color: wheat;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: #565657;
+      padding: 5px 10px;
+      margin: 20px; }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; }
+    header nav ul li {
+      margin: 10px 15px 15px 10px;
+      font-weight: bold;
+      font-size: 20px; }
+      header nav ul li a {
+        text-decoration: none;
+        color: wheat;
+        transition: 1s;
+        text-decoration: none;
+        color: grey; }
+        header nav ul li a:hover {
+          color: #565657; }
+
+main {
+  background-color: #e5e5dc; }
+  main a {
+    background-color: #565657;
+    color: wheat;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center; }
+  main .hero {
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    color: wheat;
+    background-image: "../imag/visagecaptu.jpg";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; }
+    main .hero div h2 {
+      transition: 1s;
+      margin-bottom: 20px;
+      font-size: 40px;
+      font-weight: bolder;
+      color: wheat; }
+      main .hero div h2:hover {
+        transform: scale(1.2);
+        color: #f7cf84; }
+  main .fondodos {
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    color: #505051;
+    background-image: "../imag/fondodecrema.jpg";
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .fondodos::before {
+      content: "";
+      width: 100%;
+      height: 40vh;
+      background-color: rgba(246, 248, 248, 0.247);
+      position: absolute; }
+    main .fondodos h2 {
+      font-size: 25px;
+      font-weight: bolder;
+      color: #505051;
+      position: relative; }
+  main .losmasvendidos {
+    display: flex;
+    justify-content: space-around; }
+    main .losmasvendidos div {
+      border: 1px solid #505051;
+      width: 250px;
+      height: 350px;
+      margin: 30px;
+      text-align: center; }
+      main .losmasvendidos div img {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center; }
+      main .losmasvendidos div h3 {
+        text-align: center;
+        font-size: 25px;
+        font-weight: lighter;
+        color: #565657;
+        margin-bottom: 10px; }
+      main .losmasvendidos div a {
+        text-decoration: none;
+        color: wheat;
+        font-weight: bold;
+        background-color: #565657;
+        padding: 5px 10px; }
+  main .fondomedio {
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    background-image: "../imag/lipsdona.jpg";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    main .fondomedio::before {
+      content: "";
+      width: 100%;
+      height: 40vh;
+      background-color: rgba(246, 248, 248, 0.404);
+      position: absolute; }
+    main .fondomedio div h2 {
+      font-size: 25px;
+      font-weight: bolder;
+      color: #3a3a3b;
+      position: relative; }
+  main .pieles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px; }
+    main .pieles div {
+      border: 1px solid #565657;
+      width: 250px;
+      height: 400px;
+      margin: 30px;
+      text-align: center;
+      margin-bottom: 50px; }
+      main .pieles div img {
+        width: 250px;
+        height: 250px; }
+      main .pieles div h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: lighter;
+        color: #565657; }
+      main .pieles div p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: lighter;
+        color: #565657;
+        margin-bottom: 10px; }
+      main .pieles div a {
+        text-decoration: none;
+        color: wheat;
+        font-weight: bold;
+        background-color: #565657;
+        padding: 5px 20px; }
+  main div .skinlogo {
+    width: 100%;
+    height: 40vh;
+    background-image: "../imag/logopng.png";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px; }
+  main div .zoomzoomeye img {
+    margin-top: 10px;
+    display: flex;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    background: cover;
+    background-repeat: no-repeat;
+    background-position: right; }
+  main .formulario {
+    margin-top: 5px;
+    margin-right: 15px;
+    background-image: "../imag/zoomzoomeye.jpg";
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right; }
+    main .formulario h1 {
+      font-size: 20px;
+      font-weight: bold;
+      display: flex;
+      margin-right: 10px; }
+    main .formulario form div p {
+      font-weight: bolder;
+      text-align: left;
+      padding: 5px; }
+    main .formulario form div h2 {
+      color: grey;
+      display: flex;
+      background-repeat: no-repeat;
+      background-position: right;
+      padding: 15px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-top: 10px; }
+    main .formulario form div label {
+      font-size: 20px;
+      color: grey;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px; }
+    main .formulario form div input {
+      text-align: center;
+      color: wheat;
+      text-decoration: none;
+      font-weight: bolder;
+      background-color: grey;
+      padding: 5px 10px;
+      margin: 10px;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column; }
+      main .formulario form div input:focus {
+        border: 2px solid;
+        border-radius: 5px; }
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px; }
+  footer div .logos {
+    display: flex; }
+    footer div .logos a {
+      margin: 10px 15px 15px 10px;
+      justify-content: space-evenly; }
+      footer div .logos a img {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        background-position: center;
+        background-repeat: no-repeat; }
+    footer div .logos p {
+      align-items: center;
+      position: relative;
+      text-align: right;
+      font-size: 20px;
+      font-weight: bolder;
+      color: grey;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 10px 15px 15px 10px; }
+  footer iframe {
+    width: 250px;
+    height: 200px; }
+
+@media screen and (max-width: 870px) {
+  header h1 {
+    font-size: 30px; }
+  header.hablemos div a {
+    font-size: 15px; }
+  header .hablemos div {
+    padding: 5px 5px;
+    margin: 10px; }
+  header nav ul li {
+    font-size: 20px; } }

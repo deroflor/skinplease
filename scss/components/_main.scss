@@ -1,0 +1,268 @@
+main{
+    background-color: rgb(229, 229, 220);
+    a{
+    background-color:$color-secundario;
+    color: $color-terciario;
+    padding: 5px ;
+    text-decoration: none;
+    text-align: center;
+    }
+    .hero {
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    color: $color-terciario;
+    background-image: "../imag/visagecaptu.jpg";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+        div{
+
+            h2{
+                transition: 1s;
+                margin-bottom: 20px;
+                font-size: 40px;
+                font-weight: bolder;
+                color: $color-terciario;
+                &:hover{
+                    transform: scale(1.2);
+                    color: $color-solohero;
+                }
+            }
+        }
+    }
+
+    .fondodos{
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    color: $color-titulovermejor;
+    background-image:"../imag/fondodecrema.jpg";
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        &::before{
+            content: "";
+            width: 100%;
+            height: 40vh;
+            background-color: $color-before;
+            position: absolute;
+        }
+        h2{
+        font-size: 25px;
+        font-weight: bolder;
+        color: $color-titulovermejor;
+        position: relative;
+        }
+        
+    }
+
+    .losmasvendidos{
+        display: flex;
+        justify-content: space-around;
+        div{
+            border: 1px solid $color-titulovermejor;
+            width: 250px;
+            height: 350px;
+            margin: 30px;
+            text-align: center;
+            img{
+                width: 250px;
+                height: 250px;
+                display: flex;
+                align-items: center;
+            }
+            h3{
+                text-align: center;
+                font-size: 25px;
+                font-weight: lighter;
+                color:  $color-secundario;
+                margin-bottom: 10px;
+    
+            }
+            a{
+                text-decoration: none;
+                color: $color-terciario;
+                font-weight: bold;
+                background-color: $color-secundario;
+                padding: 5px 10px;                
+            }
+        }
+        
+    }
+
+.fondomedio{
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    background-image:"../imag/lipsdona.jpg";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &::before{
+        content: "";
+        width: 100%;
+        height: 40vh;
+        background-color: $color-otrobefore;
+        position: absolute;
+    }
+    div{
+        h2{
+            font-size: 25px;
+            font-weight: bolder;    
+            color: rgb(58, 58, 59);
+            position: relative; 
+        }
+        
+        }
+    }
+.pieles{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    div{
+        border: 1px solid $color-secundario;
+        width: 250px;
+        height: 400px;
+        margin: 30px; 
+        text-align: center;
+        margin-bottom: 50px;
+
+        img{
+            width: 250px;
+            height: 250px;
+
+        }
+        h3{
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: lighter;
+            color:  $color-secundario;
+        }
+        p{
+            text-align: center;
+            font-size: 15px;
+            font-weight: lighter;
+            color:  $color-secundario;
+            margin-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: $color-terciario;
+            font-weight: bold;
+            background-color: $color-secundario;
+            padding: 5px 20px;
+        }
+    }
+}
+div{
+.skinlogo{
+    width: 100%;
+    height: 40vh;
+    background-image: "../imag/logopng.png";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+}
+div{
+    .zoomzoomeye{
+        img{
+            margin-top: 10px;
+            display: flex;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            background: cover;
+            background-repeat: no-repeat;
+            background-position: right; 
+        }
+    }
+    
+}
+.formulario{
+    margin-top: 5px;
+    margin-right: 15px;
+    background-image:"../imag/zoomzoomeye.jpg";
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    h1{
+        
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        margin-right:  10px;
+    }
+    form{
+        div{
+            
+            p{
+                font-weight: bolder;
+                text-align: left;
+                padding: 5px;
+                
+            }
+            h2{
+                color: $color-principal;  
+                display: flex;  
+                background-repeat: no-repeat;
+                background-position: right; 
+                padding: 15px;                
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 10px;
+            }
+            
+            label{
+                font-size: 20px;
+                color: $color-principal;
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+            }
+            input{
+                text-align: center;
+                color: $color-terciario;
+                text-decoration: none;
+                font-weight: bolder;
+                background-color:$color-principal;
+                padding: 5px 10px;
+                margin: 10px;                
+                font-size: 15px;
+                display: flex;
+                flex-direction: column;
+                &:focus{
+                    border: 2px solid;
+                    border-radius: 5px;
+                }
+                
+                
+            }
+        }
+    }
+        
+        
+    
+}
+}
